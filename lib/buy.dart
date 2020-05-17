@@ -47,14 +47,14 @@ class _BuyState extends State<Buy> {
 
   checkout() async{
     var options = {
-      'key': 'rzp_test_mKn49B9pkV1QsO',
+      'key': 'api_key',
       'amount': 100, //in the smallest currency sub-unit.
       'name': 'Streak Corp.',
 //      'order_id': 'orderId12}', // Generate order_id using Orders API
       'description': 'Fine T-Shirt',
       'prefill': {
-        'contact': '9123456789',
-        'email': 'amandeep110045@gmail.com'
+        'contact': 'phone_number',
+        'email': 'email_id'
       }
     };
 
